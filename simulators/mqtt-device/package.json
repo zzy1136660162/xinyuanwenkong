@@ -1,0 +1,21 @@
+{
+  "name": "xywk-mqtt-device-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MQTT boiler device simulator for Xinyuan temperature control project.",
+  "main": "src/device-simulator.js",
+  "scripts": {
+    "device": "node src/device-simulator.js",
+    "dev": "nodemon src/device-simulator.js",
+    "command": "node src/send-command.js",
+    "publish-json": "node src/publish-json.js",
+    "start": "node src/device-simulator.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mqtt": "^5.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
