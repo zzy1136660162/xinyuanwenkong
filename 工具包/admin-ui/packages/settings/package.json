@@ -1,0 +1,13 @@
+{
+  "name": "@fantastic-admin/settings",
+  "type": "module",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "defu": "^6.1.7",
+    "es-toolkit": "^1.45.1",
+    "type-fest": "^5.5.0"
+  }
+}

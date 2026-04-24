@@ -1,0 +1,43 @@
+{
+  "name": "@fantastic-admin/components",
+  "type": "module",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./index.ts",
+    "./resolver": {
+      "types": "./resolver.ts",
+      "import": "./resolver.ts"
+    }
+  },
+  "peerDependencies": {
+    "@vueuse/components": "^14.2.1",
+    "@vueuse/core": "^14.2.1",
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-vue-components": "^32.0.0",
+    "vite": "^8.0.8",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4"
+  },
+  "peerDependenciesMeta": {
+    "unplugin-auto-import": {
+      "optional": true
+    },
+    "unplugin-vue-components": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@iconify/vue": "^5.0.0",
+    "@vueuse/components": "^14.2.1",
+    "axios": "^1.15.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "es-toolkit": "^1.45.1",
+    "filesize": "^11.0.15",
+    "lucide-vue-next": "^1.0.0",
+    "reka-ui": "^2.9.6",
+    "tailwind-merge": "^3.5.0",
+    "vue-input-otp": "^0.3.2",
+    "vue-sonner": "^2.0.9"
+  }
+}
